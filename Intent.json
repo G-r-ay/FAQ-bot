@@ -1,0 +1,208 @@
+{
+      "intents": [
+            {
+                  "intent": "Greeting",
+                  "text": [
+                        "Hi",
+                        "Hi there",
+                        "Hola",
+                        "Hello",
+                        "Hello there",
+                        "Hyd",
+                        "Hya there",
+                        "How far",
+                        "Hallo"
+                        
+                  ],
+                  "responses": [
+                        "Hi, How are you",
+                        "yoo, what's good??",
+                        "Holla"
+                  ]
+            },
+            {
+                  "intent": "CourtesyGreeting",
+                  "text": [
+                        "How are you?",
+                        "Hi how are you?",
+                        "Hello how are you?",
+                        "Hola how are you?",
+                        "How are you doing?",
+                        "Hope you are doing well?",
+                        "Hello hope you are doing well?",
+                        "how your side"
+                  ],
+                  "responses": [
+                        "I am great, how are you?  ",
+                        "I am great thanks! how are you? ",
+                        "I am good thank you, how are you?  ",
+                        "Hi, I am great, how are you?  ",
+                        "Hi, how are you? I am great thanks!  ",
+                        "Hi, I am good thank you, how are you?  ",
+                        "Hi, good thank you, how are you?  "
+                  ]
+            },
+            {
+                  "intent": "NotTalking2U",
+                  "text": [
+                        "I am not talking to you",
+                        "I was not talking to you",
+                        "Not talking to you",
+                        "Wasn't for you",
+                        "Wasn't meant for you",
+                        "Wasn't communicating to you",
+                        "Wasn't speaking to you"
+                  ],
+                  "responses": [
+                        "OK",
+                        "No problem",
+                        "Right",
+                        "Nice one"
+                  ]
+            },
+            {
+                  "intent": "Shutup",
+                  "text": [
+                        "Be quiet",
+                        "Shut up",
+                        "Stop talking",
+                        "Enough talking",
+                        "Please be quiet",
+                        "Quiet",
+                        "Shhh"
+                  ],
+                  "responses": [
+                        "I am sorry to disturb you",
+                        "sorry to disturb you",
+                        "OK, sorry to disturb you"
+                  ]
+            },
+            {
+                  "intent": "Swearing",
+                  "text": [
+                        "fuck off",
+                        "fuck",
+                        "twat",
+                        "shit"
+                  ],
+                  "responses": [
+                        "Please do not swear",
+                        "How rude",
+                        "That is not very nice"
+                  ]
+            },
+            {
+                  "intent": "GoodBye",
+                  "text": [
+                        "Bye",
+                        "Adios",
+                        "See you later",
+                        "Goodbye",
+                        "byeee"
+                  ],
+                  "responses": [
+                        "See you later",
+                        "Have a nice day",
+                        "bye"
+                  ]
+            },
+            {
+                  "intent": "CourtesyGoodBye",
+                  "text": [
+                        "Thanks, bye",
+                        "Thanks for the help, goodbye",
+                        "Thank you, bye",
+                        "Thank you, goodbye",
+                        "Thanks goodbye",
+                        "Thanks good bye"
+                  ],
+                  "responses": [
+                        "No problem, goodbye",
+                        "Not a problem! Have a nice day",
+                        "bye"
+                  ]
+            },
+            {
+                  "intent": "WhoAmI",
+                  "text": [
+                        "Can you see me?",
+                        "Do you see me?",
+                        "Can you see anyone in the camera?",
+                        "Do you see anyone in the camera?",
+                        "Identify me",
+                        "Who am I please"
+                  ],
+                  "responses": [
+                        "Let me see",
+                        "Please look at the camera"
+                  ]
+            },
+            { 
+                  "intent": "Clever",
+                  "text": [
+                        "You are very clever",
+                        "You are a very clever girl",
+                        "You are very intelligent",
+                        "You are a very intelligent girl",
+                        "You are a genious",
+                        "Clever girl",
+                        "Genious"
+                  ],
+                  "responses": [
+                        "Thank you, I was trained that way",
+                        "I was trained well",
+                        "Thanks, I was trained that way"
+                  ]
+            },
+            {
+                  "intent": "small_talk" ,
+                  "text" : [
+                        "wyd",
+                        "watcha'doing",
+                        "how your side"
+                  ],
+
+                  "responses" :[
+                        "nothing you??",
+                        "working, you??",
+                        "just relaxing"
+
+                  ]
+            
+            },
+
+            {
+                  "intent": "confused" ,
+                  "text" : [
+                        "i don't even know again??",
+                        "mehnn",
+                        "sha let's not get into it"
+                  ],
+
+                  "responses" :[
+                        "Omo",
+                        "no wahala sha",
+                        "mmmmh"
+
+                  ]
+            
+            },
+
+            {
+                  "intent": "hidden" ,
+                  "text" : [
+                        "Everyhting okay??",
+                        "Are you good??",
+                        "Sure??"
+                  ],
+
+                  "responses" :[
+                        "Yes",
+                        "yup",
+                        "I'm fine"
+
+                  ]
+            
+            }
+      ]
+}
